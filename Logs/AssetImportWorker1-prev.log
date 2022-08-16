@@ -15,7 +15,7 @@ C:/Users/6800U/Desktop/Unity/TopDown2DGame/Moonless
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51117
+53354
 Successfully changed project path to: C:/Users/6800U/Desktop/Unity/TopDown2DGame/Moonless
 C:/Users/6800U/Desktop/Unity/TopDown2DGame/Moonless
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/6800U/Desktop/Unity/TopDown2DGame/Moonless
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 79.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 81.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,82 +63,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004306 seconds.
+Registered in 0.004793 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 73.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
+- Completed reload, in  0.540 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1104ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (541ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (155ms)
+		EndReloadAssembly (405ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
+				InitializePlatformSupportModulesInManaged (52ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006472 seconds.
-Android Extension - Scanning For ADB Devices 4713 ms
+Registered in 0.005517 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\6800U\Desktop\Unity\TopDown2DGame\Moonless\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\6800U\Desktop\Unity\TopDown2DGame\Moonless\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 77.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.335 seconds
+- Completed reload, in  1.039 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1153ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (545ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (459ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (396ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +145,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4073 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (222.3 KB). Loaded Objects now: 4526.
 Memory consumption went from 156.1 MB to 155.9 MB.
-Total: 3.910900 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.180400 ms MarkObjects: 3.144500 ms  DeleteObjects: 0.164200 ms)
+Total: 3.898900 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.182400 ms MarkObjects: 3.156100 ms  DeleteObjects: 0.155500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,106 +165,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 217363.690149 seconds.
-  path: Assets/Free Pixel Art Forest/Layer_0001_8 1.png
-  artifactKey: Guid(dbbeb793b70c8db47ab78576dd4c5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pixel Art Forest/Layer_0001_8 1.png using Guid(dbbeb793b70c8db47ab78576dd4c5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e86636d37e6cec0b11479688d8701c') in 0.164732 seconds 
+  Time since last request: 224306.527657 seconds.
+  path: Assets/Houses_Pack/houses.png
+  artifactKey: Guid(5fb84884cc2fddf498809784d8c23400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Houses_Pack/houses.png using Guid(5fb84884cc2fddf498809784d8c23400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40665ee7e24c9bc9fcabd0d7d1c0f27') in 0.172455 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 355.441728 seconds.
-  path: Assets/Tiles/Layer_0001_8_0.asset
-  artifactKey: Guid(674753a0d9826f34e8c0cc0afd429fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_0.asset using Guid(674753a0d9826f34e8c0cc0afd429fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421473d20fd4947285b3a6e2de2af5a8') in 0.030575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001443 seconds.
-  path: Assets/Tiles/Layer_0001_8_5.asset
-  artifactKey: Guid(7cd9308ab53f5d54eb01c5a7e012410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_5.asset using Guid(7cd9308ab53f5d54eb01c5a7e012410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ce1e1776fecad8575b074aa44e7296') in 0.020141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/Layer_0001_8_9.asset
-  artifactKey: Guid(6c434fc7a7eb92f4b9263e8e632e12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_9.asset using Guid(6c434fc7a7eb92f4b9263e8e632e12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0fd38d805778cca06c321ad69cdd74') in 0.018944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tiles/Layer_0001_8_27.asset
-  artifactKey: Guid(4192fd04f97cf6c44887309187807767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_27.asset using Guid(4192fd04f97cf6c44887309187807767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187471e4f02e422ea7f477a754d665d3') in 0.017463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Tiles/Layer_0001_8_12.asset
-  artifactKey: Guid(4c098e327c1440c42ac25d6256f41dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_12.asset using Guid(4c098e327c1440c42ac25d6256f41dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2046d2aa922e32146764f407b5a83') in 0.013376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Tiles/Layer_0001_8_4.asset
-  artifactKey: Guid(40de847c4dd34a64fba005fd25da73d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_4.asset using Guid(40de847c4dd34a64fba005fd25da73d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cc9f9a7bdc3d61d0a644fbc5b9fedd') in 0.013306 seconds 
+  Time since last request: 47.390287 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@2x.png
+  artifactKey: Guid(286d9cb65d1c6ac4f93737bd25ac22b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@2x.png using Guid(286d9cb65d1c6ac4f93737bd25ac22b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f278d147a93e371c1a3e847521f229') in 0.021274 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Tiles/Layer_0001_8_10.asset
-  artifactKey: Guid(4e11222b219b86245ba3780c07949ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_10.asset using Guid(4e11222b219b86245ba3780c07949ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c97d3c8957a28894ae1f0da8d846ed0') in 0.013596 seconds 
+  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Resolver@8x.png
+  artifactKey: Guid(fe71fcdfcbfcbda4f901f3a3e5f3075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Resolver@8x.png using Guid(fe71fcdfcbfcbda4f901f3a3e5f3075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2045ee644d3fb907b534937ae49e83') in 0.024951 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiles/Layer_0001_8_14.asset
-  artifactKey: Guid(530645ce6163ab845a1ceec14bf2b71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_14.asset using Guid(530645ce6163ab845a1ceec14bf2b71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d95144f56677f45f83741c6fff05705') in 0.013981 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@4x.png
+  artifactKey: Guid(febce835e6102a04eb904e6396eebec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@4x.png using Guid(febce835e6102a04eb904e6396eebec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb29dac7c91955238facfbc674ea3bbc') in 0.023585 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/Layer_0001_8_8.asset
-  artifactKey: Guid(91d565d153e6a2a4795640ef314ce792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_8.asset using Guid(91d565d153e6a2a4795640ef314ce792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac70a8e5c5cae68139885a963186b6d') in 0.013551 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@16x.png
+  artifactKey: Guid(e8a7461f5846e4a49815efe7dcfe7ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@16x.png using Guid(e8a7461f5846e4a49815efe7dcfe7ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec84efc3ef0961ed16acb93712b6306') in 0.025995 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiles/Layer_0001_8_22.asset
-  artifactKey: Guid(900b2a8e3d7990d4296a0bc4be7c7139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_22.asset using Guid(900b2a8e3d7990d4296a0bc4be7c7139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8d78d09e0950bbdade3c9b272e67eb') in 0.012883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiles/Layer_0001_8_23.asset
-  artifactKey: Guid(7622b88f2ea9f3d4dbc996639d3b3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_23.asset using Guid(7622b88f2ea9f3d4dbc996639d3b3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc02a9c215d54f30ae150f7d20d3b3e') in 0.014201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiles/Layer_0001_8_6.asset
-  artifactKey: Guid(78b4222b51d2c7c4a87c578e8c292be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_6.asset using Guid(78b4222b51d2c7c4a87c578e8c292be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8949a91e07a1289e5f6ff4be5c0ba1d2') in 0.013414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Tiles/Layer_0001_8_19.asset
-  artifactKey: Guid(7c887f769cd89cb41841a35df6ce709b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_19.asset using Guid(7c887f769cd89cb41841a35df6ce709b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5169485b5fa0b93f42a1c4c7cd5f5f') in 0.013944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Tiles/Layer_0001_8_1.asset
-  artifactKey: Guid(9368b3c22e61d44429c6609f45e8ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_1.asset using Guid(9368b3c22e61d44429c6609f45e8ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee285359bdb988b575a4e67a93f63a14') in 0.015659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiles/Layer_0001_8_11.asset
-  artifactKey: Guid(2e80351750557cc4cbbabbe1f8b0cd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_11.asset using Guid(2e80351750557cc4cbbabbe1f8b0cd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6820a390b0ff0af9be243f8ef34d67') in 0.015460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Tiles/Layer_0001_8_7.asset
-  artifactKey: Guid(0bbdb7623ff22674c9dd686997f5af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Layer_0001_8_7.asset using Guid(0bbdb7623ff22674c9dd686997f5af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26183f8577fe32ffc1c5a6aa24f15eee') in 0.014100 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@8x.png
+  artifactKey: Guid(ca39c184f70a1a74ea63d0d32e9e79d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Library@8x.png using Guid(ca39c184f70a1a74ea63d0d32e9e79d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feedab75b5c8d1d814eeba0882f3b31') in 0.020416 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

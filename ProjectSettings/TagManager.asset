@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Monster
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2535404243
+    locked: 0
+  - name: Monster
+    uniqueID: 1140814989
     locked: 0
   - name: Player
     uniqueID: 1912156681

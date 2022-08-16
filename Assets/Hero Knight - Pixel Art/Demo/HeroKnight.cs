@@ -93,7 +93,7 @@ public class HeroKnight : MonoBehaviour
       m_body2d.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
     }
 
-		transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+    transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
 
     // Move
     if (!m_rolling)
