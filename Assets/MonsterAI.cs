@@ -35,6 +35,4 @@ public class MonsterAI : MonoBehaviour
       overlapPlayer = true;
     }
   }
-
-  //TODO:Make track user monster ai
 }
